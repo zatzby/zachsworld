@@ -1,13 +1,43 @@
 <script>
-    import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
-  </script>
-  
-  <Footer>
-    <FooterCopyright href="/" by="Flowbite™" year={2022} />
-    <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-      <FooterLink href="/">About</FooterLink>
-      <FooterLink href="/">Privacy Policy</FooterLink>
-      <FooterLink href="/">Licensing</FooterLink>
-      <FooterLink href="/">Contact</FooterLink>
-    </FooterLinkGroup>
-  </Footer>
+  import { Footer, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte';
+  import { GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
+</script>
+
+<Footer footerType="sitemap">
+  <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-3">
+    <div>
+      <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">My Websites</h2>
+      <FooterLinkGroup ulClass="text-gray-300">
+        <FooterLink liClass="mb-4" href="https://whynostr.com/">whynostr.com</FooterLink>
+        <FooterLink liClass="mb-4" href="/">project.computer - soon™️</FooterLink>
+        <FooterLink liClass="mb-4" href="https://clownworld.exposed/">clown.world</FooterLink>
+      </FooterLinkGroup>
+    </div>
+    <div>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Social</h2>
+      <FooterLinkGroup ulClass="text-gray-300">
+        <FooterLink liClass="mb-4" href="/">Find me on Nostr - soon™️</FooterLink>
+        <FooterLink liClass="mb-4" href="/">PGP popup - soon™️</FooterLink>
+      </FooterLinkGroup>
+    </div>
+    <div>
+      <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Custom Cabinets</h2>
+      <FooterLinkGroup ulClass="text-gray-300">
+        <FooterLink liClass="mb-4" href="/">E-Book - soon™️</FooterLink>
+        <FooterLink liClass="mb-4" href="/">Custom Designs - soon™️</FooterLink>
+      </FooterLinkGroup>
+    </div>
+  </div>
+  <div class="py-6 px-4 bg-gray-700 md:flex md:items-center md:justify-between">
+    <div class="flex mt-4 space-x-6 rtl:space-x-reverse sm:justify-center md:mt-0">
+      
+      <FooterIcon href="/">
+        <DiscordSolid class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white" />
+      </FooterIcon>
+      
+      <FooterIcon href="/">
+        <GithubSolid class="w-4 h-4 text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white" />
+      </FooterIcon>
+    </div>
+  </div>
+</Footer>

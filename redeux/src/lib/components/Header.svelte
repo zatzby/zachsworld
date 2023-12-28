@@ -15,9 +15,9 @@
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
       <NavLi href="/" active={true}>Home</NavLi>
-      <NavLi href="/Nostr">Nostr</NavLi>
-      <NavLi href="/Bitcoin">Bitcoin</NavLi>
-      <NavLi href="/Books">Books</NavLi>
-      <NavLi href="/Media">Media</NavLi>
+      <NavLi href="https://nostr.how/">Nostr</NavLi>
+      <NavLi href="/">Bitcoin</NavLi>
+      <NavLi href="/">Books</NavLi>
+      <NavLi href="/">Media</NavLi>
     </NavUl>
   </Navbar>
