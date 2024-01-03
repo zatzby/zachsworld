@@ -1,6 +1,6 @@
 <script>
-  import { Footer, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte';
-  import { GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
+  import { Footer, FooterLinkGroup, FooterLink, FooterIcon } from 'flowbite-svelte';
+  import { GithubSolid, DiscordSolid} from 'flowbite-svelte-icons';
 </script>
 
 <Footer footerType="sitemap">
@@ -9,14 +9,13 @@
       <h2 class="mb-6 text-sm font-semibold text-gray-400 uppercase">My Websites</h2>
       <FooterLinkGroup ulClass="text-gray-300">
         <FooterLink liClass="mb-4" href="https://whynostr.com/">whynostr.com</FooterLink>
-        <FooterLink liClass="mb-4" href="/">project.computer - soon™️</FooterLink>
-        <FooterLink liClass="mb-4" href="https://clownworld.exposed/">clown.world</FooterLink>
+        <FooterLink liClass="mb-4" href="https://clownworld.exposed/">clownworld.exposed</FooterLink>
       </FooterLinkGroup>
     </div>
     <div>
       <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Social</h2>
       <FooterLinkGroup ulClass="text-gray-300">
-        <FooterLink liClass="mb-4" href="/">Find me on Nostr - soon™️</FooterLink>
+        <FooterLink liClass="mb-4" href="https://primal.net/zach">Find me on Nostr</FooterLink>
         <FooterLink liClass="mb-4" href="/">PGP popup - soon™️</FooterLink>
       </FooterLinkGroup>
     </div>
