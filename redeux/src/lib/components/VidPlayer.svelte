@@ -13,7 +13,7 @@
 </script>
 
 <div class="relative w-full h-auto">
-    <video bind:this={videoElement} class="w-full h-auto rounded-lg shadow-md" controls src={src}>
+    <video bind:this={videoElement} class="w-400 h-auto rounded-lg shadow-md" loop src={src}>
        Your browser does not support the video tag.
        <!-- Correct usage of track element -->
        <track kind="captions" label="English" srclang="en" src="/path/to/your/captions.vtt" />
