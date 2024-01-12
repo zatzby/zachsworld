@@ -39,6 +39,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@nostr-dev-kit/ndk": "^2.3.2",
 		"@popperjs/core": "^2.11.8",
 		"flowbite": "^2.2.1",
 		"flowbite-svelte": "^0.44.21",

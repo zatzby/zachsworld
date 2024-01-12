@@ -15,8 +15,8 @@
     <div>
       <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Social</h2>
       <FooterLinkGroup ulClass="text-gray-300">
-        <FooterLink liClass="mb-4" href="https://primal.net/zach">Find me on Nostr</FooterLink>
-        <FooterLink liClass="mb-4" href="/">PGP popup - soon™️</FooterLink>
+        <FooterLink liClass="mb-4" href="/z_nostr">Find me on Nostr</FooterLink>
+        <FooterLink liClass="mb-4" href="/pgp">PGP/GPG</FooterLink>
       </FooterLinkGroup>
     </div>
     <div>
