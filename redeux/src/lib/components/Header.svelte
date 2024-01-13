@@ -16,8 +16,8 @@
     <NavUl {hidden}>
       <NavLi href="/" active={true}>Home</NavLi>
       <NavLi href="/nostr">Nostr</NavLi>
-      <NavLi href="">Bitcoin</NavLi>
+      <NavLi href="https://bitcoin.org/">Bitcoin</NavLi>
       <NavLi href="/books">Books</NavLi>
-      <NavLi href="/">Media</NavLi>
+      <NavLi href="/media">Media</NavLi>
     </NavUl>
   </Navbar>

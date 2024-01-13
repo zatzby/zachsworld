@@ -1,5 +1,6 @@
 <script lang="ts">
     import VidPlayer from "$lib/components/VidPlayer.svelte";
+    import Join from "$lib/components/Join.svelte";
 </script>
 
 <div class="animate-pulse text-5xl text-orange-950 mb-30 mx-20">
@@ -33,4 +34,6 @@
     <p class="mx-20 mt-20 mb-20 text-5xl">A place for the people, built by the people.</p>
     <p class="font-thin p-10 mx-20 mt-20 mb-20 text-5xl">It is the era of the average person taking back control of their social media, their content hosting, their data, and it is just getting started. Join us on Nostr today, and find your next favorite app!</p>
 </div>
-
+<div class="flex flex-col items-center mt-20 mb-20">
+<Join />
+</div>
