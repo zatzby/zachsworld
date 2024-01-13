@@ -19,17 +19,20 @@
 </script>
 
 {#await user.fetchProfile() then events}
-    <h2>{user.profile?.name}</h2>
-    <p>
-        <img src={user.profile?.image} style="width:100px; height:100px;" alt="asdf" />
+<div class="mx-20 outline">    
+<h2 class="text-3xl p-5">{user.profile?.name}</h2>
+    <p class="p-5">
+        <img src={user.profile?.image} style="width:200px; height:200px;" alt="asdf" />
     </p>
-    <p>{user.profile?.about}</p>
+    <p class="textl-xl text-purple-950 p-5">Nostr Address: {user.profile?.nip05}</p>
+    <p class="text-xl p-5">{user.profile?.about}</p>
+</div>
     {/await}
 
 {#await eventsPromise then events}
 {#each Array.from(events).sort((a, b) => (b.created_at && a.created_at) ? b.created_at - a.created_at : 0).slice(0, 5) as event}
-        <div>
-            <p class="m-10 p-10">{event.content}<span class="ml-5">{formatTimestamp(event.created_at)}</span></p>  
+        <div class="outline-dashed">
+            <p class="m-20 p-10">{event.content}<span class="ml-5">{formatTimestamp(event.created_at)}</span></p>  
         </div>
     {/each} 
 {/await}
