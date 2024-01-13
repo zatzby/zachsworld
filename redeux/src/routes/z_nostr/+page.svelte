@@ -30,7 +30,7 @@
     {/await}
 
 {#await eventsPromise then events}
-{#each Array.from(events).sort((a, b) => (b.created_at && a.created_at) ? b.created_at - a.created_at : 0).slice(0, 5) as event}
+{#each Array.from(events).sort((a, b) => (b.created_at && a.created_at) ? b.created_at - a.created_at : 0).slice(0, 9) as event}
         <div class="outline-dashed">
             <p class="m-20 p-10">{event.content}<span class="ml-5">{formatTimestamp(event.created_at)}</span></p>  
         </div>
