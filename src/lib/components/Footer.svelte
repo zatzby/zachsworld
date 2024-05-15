@@ -22,7 +22,7 @@
     <div>
       <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Helpful Links</h2>
       <FooterLinkGroup ulClass="text-gray-300">
-        <FooterLink liClass="mb-4" href="/readbitcoin">Read the Bitcoin White Paper</FooterLink>
+        <FooterLink liClass="mb-4" href="/">Read the Bitcoin White Paper - soon™️</FooterLink>
         <FooterLink liClass="mb-4" href="/">Custom Designs - soon™️</FooterLink>
       </FooterLinkGroup>
     </div>
