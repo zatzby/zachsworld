@@ -18,6 +18,9 @@
     console.log(user);
 </script>
 
+<h1 class="text-center align-middle mb-5">Fetching data from the Nostr relays... please wait while events load.</h1>
+
+
 {#await user.fetchProfile() then events}
 <div class="mx-20 outline mb-20">    
 <h2 class="text-3xl p-5">{user.profile?.name}</h2>
